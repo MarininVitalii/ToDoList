@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+width: 40%;
+}
+
+.right{
+    font-family: 'Abril Fatface', serif;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#spn{
+    color: #a6aa81;
+    font-style: italic;
+}
+
+.header{
+    font-family: 'Dancing Script', cursive;
+    color: beige; 
+}
+
+h2{
+    color: beige;
+}
+
+.createTasks button {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#tasksList{
+    margin: auto;
+    background-color: #a6aa81;
+    border-radius: 10px;
+    width: 80%;
+    height: 800px;
+    border: 2px solid rgb(30, 35, 35);
+}
+p{
+    display: flex;
+    justify-content: space-between;
+}
+p input[type=checkbox]{
+    margin: 10px 0 0 10px;
+    height: 20px;
+  width: 20px;
+  border: 2px solid #c9c9c9;
+  background-color: #dedbdb;
+}
+
+p button {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-right: 10PX;
+    
+}
+
+span{
+    font-family: 'hantell Sans', cursive;
+    text-shadow:5px 3px 5px BLACk;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin: 0 20px ;
+}
+
+.createTasks{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#taskInput {
+    font-family: 'Shantell Sans', cursive;
+    box-shadow: 0 0 15px 4px white;
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    padding-left: 10px;
+    color: black;
+    font-size: 25px;
+}
+
+.checked{
+    color: green;
+    text-decoration : line-through;
+}
+
+.unChecked{
+    color: "black";
+    text-decoration : "none";
+}
+
